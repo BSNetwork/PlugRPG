@@ -16,10 +16,11 @@
 
 body{
 	position: relative;
-	overflow-x: hidden;
+	overflow-x: auto;
 	overflow-y: scroll;
 	margin: 0px;
 	padding: 0px;
+	min-width: 1150px;
 }
 
 #section-intro{
