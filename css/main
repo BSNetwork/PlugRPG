@@ -1,0 +1,206 @@
+@font-face{
+	font-family:agoestoesan;
+	src:url(../fonts/agoestoesan.ttf)
+}
+
+@font-face{
+	font-family: vsf;
+	src:url(../fonts/v64.ttf)
+}
+
+@font-face{
+	font-family: ostrich;
+	src:url(../fonts/ostrich-regular.ttf)
+}
+
+
+body{
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	margin: 0px;
+	padding: 0px;
+}
+
+#section-intro{
+	/*background: linear-gradient(45deg, rgba(141,238,238,1) 0%, rgba(191,95,255,1) 100%); */
+	height: 100%;
+	position: relative;
+}
+
+#background{
+	background: url(../images/background1.jpg);
+	background-size: cover;
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:-1;
+	-webkit-filter: blur(2px) opacity(100%);
+	-moz-filter: blur(2px) opacity(100%);
+	-o-filter: blur(2px) opacity(100%);
+	-ms-filter: blur(2px) opacity(100%);
+	filter: blur(2px) opacity(100%);
+}
+
+#header{
+	height: 65px;
+	background-color: rgba(56, 46, 78, 0.6);
+	width:100%;
+	z-index: 2;
+	text-align: center;
+}
+
+#header ul{
+	line-height: 65px;
+}
+
+#header ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+#header ul li div{
+	font-family: ostrich;
+	color: white;
+	font-size: 24px;
+	position: relative;
+	margin: 0 100px 0 10px;
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+	width: 100px;
+	transition: 1s ease;
+	cursor: pointer;
+}
+
+#header ul li div:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+
+#content{
+	z-index: 5;
+	color: white;
+	margin: 0 auto;
+	position: relative;
+	/*line-height: 600px;*/
+	text-align: center;
+    top: 150px;
+}
+
+#product-name{
+	font-family: ostrich;
+	font-size: 78px;
+	max-height: 10px;
+	letter-spacing: 14px;
+    position: relative;
+}
+
+#product-desc{
+	font-family: ostrich;
+	font-size: 30px;
+	max-height: 10px;
+	letter-spacing: 10px;
+    position: relative;
+    top: 30px;
+}
+
+
+
+#section-about{
+	height: 400px;
+	width: 100%;
+	background-color: rgba(75, 62, 104, 1);
+	/*filter: blur(4px);*/
+	position: relative;
+	top: 15px;
+}
+
+#section-about-content{
+
+}
+
+#section-contact{
+	height: 400px;
+	width: 100%;
+	/*background-color: #3E4668;*/
+	background-color: rgba(62,70,104,1);
+	/*filter: blur(4px);*/
+	position: relative;
+	top: -15px;
+}
+
+#section-contact-content{
+	
+}
+
+#section-info{
+	height: 600px;
+	width: 100%;
+	/*background-color: #603E68;*/
+	background-color: rgba(62,70,104,0);
+	/*filter: blur(4px);*/
+	position: relative;
+	/*top: -10px;*/
+}
+
+#section-info-content{
+	
+}
+
+#section-faq{
+	height: 400px;
+	width: 100%;
+	background-color: #603E68;
+	/*background-color: rgba(62,70,104,1);*/
+	/*filter: blur(4px);*/
+	position: relative;
+	/*top: -10px;*/
+}
+
+#section-faq-content{
+	
+}
+
+#section-support{
+	height: 600px;
+	width: 100%;
+	/*background-color: #603E68;*/
+	background-color: rgba(62,70,104,0);
+	/*filter: blur(4px);*/
+	position: relative;
+	/*top: -10px;*/
+}
+
+#section-support-content{
+	
+}
+
+#footer{
+	height: 100px;
+	width: 100%;
+	background-color: #603E68;
+	/*background-color: rgba(62,70,104,1);*/
+	/*filter: blur(4px);*/
+	position: relative;
+	/*top: -10px;*/
+}
+
+#section-footer-content{
+	
+}
+
+#section-about-content,
+#section-contact-content,
+#section-info-content,
+#section-faq-content,
+#section-support-content,
+#section-footer-content{
+	padding: 5px;
+	text-align: center;
+}
+
+.test{
+	color: white;
+	font-family: ostrich;
+}
