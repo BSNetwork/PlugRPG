@@ -1,2 +1,2 @@
 # PlugRPG
-An RPG (Role Playing Game) for Plug.DJ!
+An RPG (Role Playing Game) for Plug.DJ
